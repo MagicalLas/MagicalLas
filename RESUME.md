@@ -2,13 +2,20 @@
 
 비즈니스 요구사항과 품질 속성 사이에서 가장 좋은 선택을 하여 팀을 성공으로 만들고 싶은 개발자 하원호입니다.
 
+## Contact
+
+Email : las@magical.dev
+
+Number: +82 10-7704-6876
+
 ## Carrier Experience
-### Buzvil (2019.09.02~NOW,  29개월)
+### Buzvil (2019.09.02~NOW, 31개월)
 
 약 100명 규모의 스타트업인 버즈빌에서 병역 특례 요원으로 근무하였습니다.
 
 #### 새로운 광고 상품 개발 및 유지 보수
-새로운 광고 상품을 개발하면서 시스템 설계 및 유지보수를 담당하였습니다.
+새로운 광고 상품을 처음부터 개발하면서 시스템 설계 및 유지보수를 담당하였습니다.
+
 - 2020년 3월간 매출 100만원을 시작으로 2년간 100배 성장하여 한달 매출 1억이 넘는 광고 상품을 개발.
 - 요청이 2000reqps 이상 오는 서비스가 안정적으로 서빙될 수 있도록 관리.
 - DynamoDB를 적용하여 latency p95 100ms 유지
@@ -19,13 +26,15 @@
 - 새로 입사한 개발자를 위한 서비스 Oerview 세션 운영
 - 버즈빌에서 운영중인 40개 이상의 마이크로 서비스의 의존 관계와 역할을 정의하고 시각화.
 - DDD 스터디 3회와 사내 발표, 글을 작성하여 아키텍처에 대한 이해도를 높힘.
+- Architecture Decision Record등을 작성하면서 이해관계자들과 아키텍처 결정의 합의를 이끌어냄.
 
 #### 신 사업 개발
 리워드를 이용한 사용자의 리텐션과 참여도를 증가시키는 새로운 사업에 BackEnd 담당.
 
 - 이벤트 스트리밍과 이벤트 소싱을 이용한 유저 행동 이벤트 분석 시스템 설계
+- 기술적인 의사 결정을 팀 내/외부와 합의하는 과정을 리드함.
+- Message Queue를 이용한 관심사의 분리와 과도한 트래픽을 대비한 BackPressure처리 구현
 - 사내 백오피스를 위한 API 설계 및 구현
-- Kafka를 사용한 서비스간 통신 및 고성능 서비스 구현
 
 ## 외부 컨퍼런스 발표
 
@@ -71,22 +80,22 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 - 바운디드 컨텍스트를 잘 나누는 방법에 대하여 고민하고 있으며, MSA를 하게 되는 경우 Entity Service Pattern을 경계합니다.
 - Entity의 ID 생성 방식에 따라서 발생하는 트레이드 오프를 이해하고 있으며, 서비스에 가장 적절한 방법을 선택할 수 있습니다.
 
-
 ### System Design & Architecture
 
 새로운 시스템을 구상하거나 제안하며, 비즈니스 목표를 이루기 위한 개발을 진행합니다.
 
+- Architecture를 정하는 과정에서 이해관계자들과 합의하고 공유될 수 있도록 합니다. 
 - Hexagonal, Onion, Layered와 같은 아키텍처들을 전부 사용해보았으며 가장 적절한 아키텍처를 선택합니다.
-- Architecture Pattern, Architecture Style, Architecture가 어떻게 다른지 설명할 수 있습니다.
+- Architecture Pattern, Architecture Style, Architecture가 어떻게 다른지 이해하고 명확한 용어를 사용합니다.
 - 전체적인 구조를 파악하기 쉽도록 온보딩 세션을 기획하여 진행하거나, 문서화를 하여 전체 개발자의 이해도를 높히는 활동을 할 수 있습니다.
 - 엔지니어링은 트레이드 오프라고 생각하며, 비즈니스 가치와 품질 속성을 고려하여 비즈니스의 성공을 위하여 노력합니다.
 - MSA(losely coupled SOA) 환경에서 시스템이 어떻게 협력하는지 이해하고, 이런 내용을 모든 개발자에게 공유되도록 노력합니다.
 
-### Distributed Systems and Scailablity
+### Distributed Systems and Scalability
 
 높은 처리량을 가지는 시스템을 설계하고 개선할 수 있습니다.
 
-- MySQL을 사용하는 시스템을 DynamoDB 기반으로 바꾸어서 p90 응답시간을 1초에서 150ms로 개선할 수 있습니다.
+- MySQL을 사용하는 시스템을 DynamoDB 기반으로 이전하여 p90 응답시간을 1초에서 150ms로 개선하였습니다.
 - 동시성 프로그래밍에 익숙하며, 평소에 Golang을 기반으로 CSP 방식의 동시성 프로그래밍을 좋아합니다.
 - APM 도구(eg. Datadog)를 사용하여 병목지점을 파악하며, 개선점을 도출할 수 있습니다.
 - 상황에 따라서 inmemory cache(local cache)를 적용하여 시스템의 성능을 개선시킬 수 있습니다.
@@ -105,7 +114,6 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 
 - gRPC, protobuf, avro 등의 도구를 사용하여 서비스간의 요청을 최적화 할 수 있습니다.
 - K8s, Helm Chart, Terraform과 같은 Infra & Infra as a Code를 사용할 수 있습니다.
-- Github Action, Private Docker Registry, Spinnaker와 같은 CI/CD 도구들을 사용하여 서비스를 안정적으로 배포할 수 있습니다.
 - Kafka와 같은 메세지 큐, Circuit Breaker등을 사용하여 장애가 다른 서비스에 전파되지 않도록 합니다.
 
 ### Growth Together
@@ -123,6 +131,5 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 
 ## Thanks to Read!!
 
-혹시 저와 이야기 나누고싶으시다면 Twitter(@LasWonho)로 연락해주시면 감사드리겠습니다.
+혹시 저와 이야기 나누고싶으시다면 Email(las@magical.dev)로 연락해주시면 감사드리겠습니다.
 읽어주셔서 감사합니다.
-
