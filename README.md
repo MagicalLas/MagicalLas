@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+My resume is [here](https://github.com/MagicalLas/MagicalLas/blob/master/RESUME.md)!
+
 <!--
 **MagicalLas/MagicalLas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
