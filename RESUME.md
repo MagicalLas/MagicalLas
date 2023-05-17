@@ -9,7 +9,7 @@ Email : las@magical.dev
 Number: +82 10-7704-6876
 
 ## Carrier Experience
-### Buzvil (2019.09.02~NOW, 43개월)
+### Buzvil (2019.09.02~NOW, 44개월)
 
 약 100명 규모의 스타트업인 버즈빌에서 산업기능요원으로 근무하였습니다.
 
@@ -90,7 +90,7 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 - Architecture를 정하는 과정에서 이해관계자들과 합의하고 공유될 수 있도록 합니다. 
 - Hexagonal, Onion, Layered와 같은 아키텍처들을 전부 사용해보았으며 가장 적절한 아키텍처를 선택합니다.
 - Architecture Pattern, Architecture Style, Architecture가 어떻게 다른지 이해하고 명확한 용어를 사용합니다.
-- 전체적인 구조를 파악하기 쉽도록 온보딩 세션을 기획하여 진행하거나, 문서화를 하여 전체 개발자의 이해도를 높히는 활동을 할 수 있습니다.
+- 40개가 넘는 서비스간의 전체적인 구조를 파악하기 쉽도록 온보딩 세션을 기획하여 진행하거나, 문서화를 하여 전체 개발자의 이해도를 높히는 활동을 할 수 있습니다.
 - 엔지니어링은 트레이드 오프라고 생각하며, 비즈니스 가치와 품질 속성을 고려하여 비즈니스의 성공을 위하여 노력합니다.
 - MSA(losely coupled SOA) 환경에서 시스템이 어떻게 협력하는지 이해하고, 이런 내용을 모든 개발자에게 공유되도록 노력합니다.
 
@@ -99,9 +99,11 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 높은 처리량을 가지는 시스템을 설계하고 개선할 수 있습니다.
 
 - MySQL을 사용하는 시스템을 DynamoDB 기반으로 이전하여 p90 응답시간을 1초에서 150ms로 개선하였습니다.
+- 신 사업 개발에서 reqps 150을 버티는 서비스예서 reqps 7000을 버티는 서비스로 개선하는 작업을 주도하였습니다.
 - 동시성 프로그래밍에 익숙하며, 평소에 Golang을 기반으로 CSP 방식의 동시성 프로그래밍을 좋아합니다.
 - APM 도구(eg. Datadog)를 사용하여 병목지점을 파악하며, 개선점을 도출할 수 있습니다.
 - 상황에 따라서 inmemory cache(local cache)를 적용하여 시스템의 성능을 개선시킬 수 있습니다.
+- 분산시스템에 기본적인 primitive을 알고있고 이론적인 부분에 관심이 많습니다ㅏ.
 
 ### Express Thoughts in Programming Language
 
@@ -118,6 +120,7 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 - gRPC, protobuf, avro 등의 도구를 사용하여 서비스간의 요청을 최적화 할 수 있습니다.
 - K8s, Helm Chart, Terraform과 같은 Infra & Infra as a Code를 사용할 수 있습니다.
 - Kafka와 같은 메세지 큐, Circuit Breaker등을 사용하여 장애가 다른 서비스에 전파되지 않도록 합니다.
+- DynamoDB, Redis-cluster, RDB, Athena와 같은 다양한 도구들을 적재적소에 사용합니다.
 
 ### Growth Together
 
