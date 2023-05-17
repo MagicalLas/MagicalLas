@@ -19,7 +19,7 @@ Number: +82 10-7704-6876
 - 이벤트 스트리밍과 이벤트 드리븐 아키텍처를 이용한 유저 행동 이벤트 분석 시스템 설계 및 구현
 - 이벤트 소싱을 이용한 포인트 시스템 설계 및 구현
 - 기술적인 의사 결정을 팀 내/외부와 합의하는 과정을 리드함
-- Message Queue를 이용한 관심사의 분리와 과도한 트래픽을 대비한 BackPressure처리 구현
+- Message Queue를 이용한 관심사의 분리와 과도한 트래픽을 대비한 부하테스트 환경 마련
 - 사내 백오피스를 위한 API 설계 및 구현
 
 #### 새로운 광고 상품 개발 및 유지 보수
@@ -103,7 +103,7 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 - 동시성 프로그래밍에 익숙하며, 평소에 Golang을 기반으로 CSP 방식의 동시성 프로그래밍을 좋아합니다.
 - APM 도구(eg. Datadog)를 사용하여 병목지점을 파악하며, 개선점을 도출할 수 있습니다.
 - 상황에 따라서 inmemory cache(local cache)를 적용하여 시스템의 성능을 개선시킬 수 있습니다.
-- 분산시스템에 기본적인 primitive을 알고있고 이론적인 부분에 관심이 많습니다ㅏ.
+- 분산시스템에 기본적인 primitive을 알고있고 이론적인 부분에 관심이 많습니다.
 
 ### Express Thoughts in Programming Language
 
