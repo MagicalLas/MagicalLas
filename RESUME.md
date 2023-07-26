@@ -9,7 +9,7 @@ Email : las@magical.dev
 Number: +82 10-7704-6876
 
 ## Carrier Experience
-### Buzvil (2019.09.02~NOW, 44개월)
+### Buzvil (2019.09.02~2023.06.02, 44개월)
 
 약 100명 규모의 스타트업인 버즈빌에서 산업기능요원으로 근무하였습니다.
 
