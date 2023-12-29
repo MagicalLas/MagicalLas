@@ -3,21 +3,22 @@
 
 --
 
-GSM, 3Y, Software Developmemt
+GSM, 3Y, Software Development
 Buzzvil, 4Y, Software Enginner
-Toss, NOW, SRE in ServerPlatform
+Toss, NOW, SRE in ServerPlatform Team
 
 --
 
 Speaker
 
-in Pycon 2018~2021
-in Gophercon 2023
+in PyconKR 2018~2021
+in GopherconKR 2023
+in PyconJP 2019
 
 --
 
 Interest
 
-JVM, Network, Golang, GC, runtime structure
-vocaloid, kawaii things
+JVM, Network, Golang, GC, Runtime Structure
+Vocaloid, KAWAII MONO
 ```
