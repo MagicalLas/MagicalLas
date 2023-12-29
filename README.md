@@ -13,7 +13,7 @@ Speaker
 
 in PyconKR 2018~2021
 in GopherconKR 2023
-in PyconJP 2019
+in PyconJP 2020
 
 --
 
