@@ -19,6 +19,6 @@ in PyconJP 2020
 
 Interest
 
-JVM, Network, Golang, GC, Runtime Structure
-Vocaloid, KAWAII MONO
+redis, JVM, Network, Golang, GC, Runtime Structure
+Vocaloid, KAWAII MONO, kani nayuta
 ```
