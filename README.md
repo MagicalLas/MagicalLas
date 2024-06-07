@@ -5,7 +5,7 @@
 
 GSM, 3Y, Software Development
 Buzzvil, 4Y, Software Enginner
-Toss, NOW, SRE in ServerPlatform Team
+Toss, NOW, SRE
 
 --
 
