@@ -98,15 +98,16 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 
 ## Skills
 
-### Domain Driven Design
+### Distributed Systems and Scalability
 
-저는 도메인 주도 설계를 자주 이용하고있으며, 복잡한 비즈니스 로직을 격리시켜 수정가능하도록 만들 수 있습니다.
+높은 처리량을 가지는 시스템을 설계하고 개선할 수 있습니다.
 
-- Application Service와 Domain Service가 어떻게 다르고, 언제 쓰여야하는지 알고있습니다.
-- Aggregate을 활용하여 도메인 모델 내부의 개념적 일관성을 유지시킬 수 있습니다.
-- DB, API를 세부사항으로 생각하며, 이런 세부사항이 결정되지 않은 상황에서 프로젝트를 진행할 수 있습니다.
-- 바운디드 컨텍스트를 잘 나누는 방법에 대하여 고민하고 있으며, MSA를 하게 되는 경우 Entity Service Pattern을 경계합니다.
-- Entity의 ID 생성 방식에 따라서 발생하는 트레이드 오프를 이해하고 있으며, 서비스에 가장 적절한 방법을 선택할 수 있습니다.
+- MySQL을 사용하는 시스템을 DynamoDB 기반으로 이전하여 p90 응답시간을 1초에서 150ms로 개선하였습니다.
+- 신 사업 개발에서 reqps 150을 버티는 서비스예서 reqps 7000을 버티는 서비스로 개선하는 작업을 주도하였습니다.
+- 동시성 프로그래밍에 익숙하며, 평소에 Golang을 기반으로 CSP 방식의 동시성 프로그래밍을 좋아합니다.
+- APM 도구(eg. Datadog)를 사용하여 병목지점을 파악하며, 개선점을 도출할 수 있습니다.
+- 상황에 따라서 inmemory cache(local cache)를 적용하여 시스템의 성능을 개선시킬 수 있습니다.
+- 분산시스템에 기본적인 primitive을 알고있고 이론적인 부분에 관심이 많습니다.
 
 ### System Design & Architecture
 
@@ -119,16 +120,15 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 - 엔지니어링은 트레이드 오프라고 생각하며, 비즈니스 가치와 품질 속성을 고려하여 비즈니스의 성공을 위하여 노력합니다.
 - MSA(losely coupled SOA) 환경에서 시스템이 어떻게 협력하는지 이해하고, 이런 내용을 모든 개발자에게 공유되도록 노력합니다.
 
-### Distributed Systems and Scalability
+### Domain Driven Design
 
-높은 처리량을 가지는 시스템을 설계하고 개선할 수 있습니다.
+저는 도메인 주도 설계를 자주 이용하고있으며, 복잡한 비즈니스 로직을 격리시켜 수정가능하도록 만들 수 있습니다.
 
-- MySQL을 사용하는 시스템을 DynamoDB 기반으로 이전하여 p90 응답시간을 1초에서 150ms로 개선하였습니다.
-- 신 사업 개발에서 reqps 150을 버티는 서비스예서 reqps 7000을 버티는 서비스로 개선하는 작업을 주도하였습니다.
-- 동시성 프로그래밍에 익숙하며, 평소에 Golang을 기반으로 CSP 방식의 동시성 프로그래밍을 좋아합니다.
-- APM 도구(eg. Datadog)를 사용하여 병목지점을 파악하며, 개선점을 도출할 수 있습니다.
-- 상황에 따라서 inmemory cache(local cache)를 적용하여 시스템의 성능을 개선시킬 수 있습니다.
-- 분산시스템에 기본적인 primitive을 알고있고 이론적인 부분에 관심이 많습니다.
+- Application Service와 Domain Service가 어떻게 다르고, 언제 쓰여야하는지 알고있습니다.
+- Aggregate을 활용하여 도메인 모델 내부의 개념적 일관성을 유지시킬 수 있습니다.
+- DB, API를 세부사항으로 생각하며, 이런 세부사항이 결정되지 않은 상황에서 프로젝트를 진행할 수 있습니다.
+- 바운디드 컨텍스트를 잘 나누는 방법에 대하여 고민하고 있으며, MSA를 하게 되는 경우 Entity Service Pattern을 경계합니다.
+- Entity의 ID 생성 방식에 따라서 발생하는 트레이드 오프를 이해하고 있으며, 서비스에 가장 적절한 방법을 선택할 수 있습니다.
 
 ### Express Thoughts in Programming Language
 
@@ -155,10 +155,6 @@ https://www.youtube.com/watch?v=UPmQHHpS3cw
 - 찾은 발표나 도구, 블로그 아티클을 동료와 함께 공유하며 좋은 내용을 발견했다면 추천합니다.
 - 페어 프로그래밍에 익숙하며, 막히는 부분이 있다면 같이 풀어나가려고 합니다.
 - Agile 프로젝트를 진행한 경험이 있으며, 회고, 사용자 스토리, 작업의 시각화를 하여 일을 더 잘하기 위한 방법을 모색합니다.
-
-## Projects
-
-현재 공개된 프로젝트가 따로 존재하지 않습니다.
 
 ## Thanks to Read!!
 
