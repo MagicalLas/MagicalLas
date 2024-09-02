@@ -66,6 +66,12 @@ MAU 300만, DAU 100만의 서비스의 서버를 운영 & 신규 기능 개발�
 
 ## 외부 컨퍼런스 발표
 
+### Gophercon KR 2023, Speaker
+
+GC in Golang
+
+https://www.youtube.com/watch?v=EVBFXZhS07E
+
 ### Pycon KR 2021, Speaker
 
 Pythonic Clean Architecture
