@@ -3,9 +3,9 @@
 
 --
 
-GSM, 3Y, Software Development
 Buzzvil, 4Y, Software Enginner
-Toss, NOW, SRE
+Toss, NOW(2Y), SRE(Server Developer)
+Hanyang Cyber University, Freshman, CSE
 
 --
 
