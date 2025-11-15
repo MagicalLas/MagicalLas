@@ -19,6 +19,6 @@ in PyconJP 2020
 
 Interest
 
-redis, JVM, Network, Golang, GC, Runtime Structure
+redis, JVM, Network, Golang, Runtime Profiling, Distributed Systems
 Vocaloid, KAWAII MONO, kani nayuta
 ```
