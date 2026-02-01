@@ -4,8 +4,8 @@
 --
 
 Buzzvil, 4Y, Software Enginner
-Toss, NOW(2Y), SRE(Server Developer)
-Hanyang Cyber University, Freshman, CSE
+Toss, NOW(2Y), SRE
+Hanyang Cyber University, CSE
 
 --
 
